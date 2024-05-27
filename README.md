@@ -1,16 +1,29 @@
-# hahaaa
+# Sneakers Application 
 
-A new Flutter project.
+This is a mobile application developed using Flutter to showcase a collection of sneakers. The app utilizes imported JSON data to display various sneaker details in an intuitive and user-friendly interface.
 
-## Getting Started
+## Features
+- Display a comprehensive list of sneakers with details such as name, brand, price, and image.
+- Detailed view for each sneaker with additional information.
+- Responsive and adaptive design for different mobile devices.
 
-This project is a starting point for a Flutter application.
+## Installation
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/FarisAnsara/Sneakers-App.git
+    ```
+2. **Navigate to the project directory:**
+    ```bash
+    cd Sneakers-App
+    ```
+3. **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+4. **Run the application:**
+    ```bash
+    flutter run
+    ```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## JSON Data
+The application reads and parses JSON data to dynamically display sneaker information. Ensure your JSON data is correctly
